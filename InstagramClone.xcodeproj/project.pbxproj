@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A711484129D6F5EC00964AFC /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A711484029D6F5EC00964AFC /* CustomTextField.swift */; };
+		A711484329D6F89800964AFC /* Extention+UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A711484229D6F89800964AFC /* Extention+UIButton.swift */; };
+		A711A9AC29D58D430070CF39 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A711A9AB29D58D430070CF39 /* LoginController.swift */; };
+		A711A9AE29D58D4E0070CF39 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A711A9AD29D58D4E0070CF39 /* RegistrationController.swift */; };
 		A76C7B3729D0AEBB00C3C23E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76C7B3629D0AEBB00C3C23E /* AppDelegate.swift */; };
 		A76C7B3929D0AEBB00C3C23E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76C7B3829D0AEBB00C3C23E /* SceneDelegate.swift */; };
 		A76C7B4029D0AEBC00C3C23E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A76C7B3F29D0AEBC00C3C23E /* Assets.xcassets */; };
@@ -23,6 +27,10 @@
 
 /* Begin PBXFileReference section */
 		6B4DBAA2A52957E0CB77DC23 /* Pods-InstagramClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramClone.debug.xcconfig"; path = "Target Support Files/Pods-InstagramClone/Pods-InstagramClone.debug.xcconfig"; sourceTree = "<group>"; };
+		A711484029D6F5EC00964AFC /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		A711484229D6F89800964AFC /* Extention+UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extention+UIButton.swift"; sourceTree = "<group>"; };
+		A711A9AB29D58D430070CF39 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		A711A9AD29D58D4E0070CF39 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
 		A76C7B3329D0AEBB00C3C23E /* InstagramClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A76C7B3629D0AEBB00C3C23E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A76C7B3829D0AEBB00C3C23E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,8 +66,16 @@
 				6B4DBAA2A52957E0CB77DC23 /* Pods-InstagramClone.debug.xcconfig */,
 				CD0AA842B124884DD208E19F /* Pods-InstagramClone.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		A711A9AA29D58D190070CF39 /* Authentification */ = {
+			isa = PBXGroup;
+			children = (
+				A711A9AB29D58D430070CF39 /* LoginController.swift */,
+				A711A9AD29D58D4E0070CF39 /* RegistrationController.swift */,
+			);
+			path = Authentification;
 			sourceTree = "<group>";
 		};
 		A76C7B2A29D0AEBB00C3C23E = {
@@ -108,6 +124,7 @@
 		A76C7B4C29D0AF8D00C3C23E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				A711A9AA29D58D190070CF39 /* Authentification */,
 				A76C7B5129D0B00C00C3C23E /* MainTabController.swift */,
 				A76C7B5329D0B13B00C3C23E /* FeedController.swift */,
 				A76C7B5529D0B14600C3C23E /* SearchController.swift */,
@@ -129,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				A7D2F37E29D2D5D6007C0065 /* FeedCell.swift */,
+				A711484029D6F5EC00964AFC /* CustomTextField.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -143,6 +161,7 @@
 		A76C7B5029D0AFB400C3C23E /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				A711484229D6F89800964AFC /* Extention+UIButton.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -257,9 +276,13 @@
 				A76C7B5A29D0B15F00C3C23E /* NotificationController.swift in Sources */,
 				A76C7B5229D0B00C00C3C23E /* MainTabController.swift in Sources */,
 				A76C7B5829D0B15400C3C23E /* ImageSelectorController.swift in Sources */,
+				A711A9AE29D58D4E0070CF39 /* RegistrationController.swift in Sources */,
+				A711484329D6F89800964AFC /* Extention+UIButton.swift in Sources */,
 				A76C7B5429D0B13B00C3C23E /* FeedController.swift in Sources */,
+				A711484129D6F5EC00964AFC /* CustomTextField.swift in Sources */,
 				A76C7B5C29D0B16500C3C23E /* ProfileController.swift in Sources */,
 				A7D2F37F29D2D5D6007C0065 /* FeedCell.swift in Sources */,
+				A711A9AC29D58D430070CF39 /* LoginController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
